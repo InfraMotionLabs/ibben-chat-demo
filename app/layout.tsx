@@ -5,8 +5,9 @@ import { GeistMono } from 'geist/font/mono';
 import { cn } from '@/utils';
 
 export const metadata: Metadata = {
-  title: 'Inova Assistance - AI Chatbot Demo',
-  description: 'AI Chatbot for Inova Assistance',
+  title: ' Intressebevakaren - AI-Powered Assistance for Stakeholders Demo',
+  description:
+    ' Intressebevakaren - AI-Powered Assistance for Stakeholders Demo',
 };
 
 export default function RootLayout({
