@@ -133,11 +133,11 @@ export default function Chatbot() {
                 />
               </svg>
             </button> */}
-            <div className="w-4/5">
+            {/* <div className="w-4/5">
               <p className="px-2 py-1 prose bg-neutral-200 border text-sm w-fit border-neutral-300 rounded-lg text-pretty">
                 Hej! Hur kan jag hjälpa dig idag?
               </p>
-            </div>
+            </div> */}
             {messages.map((m: Message) =>
               m.role === 'assistant' ? (
                 <div key={m.id} className="w-4/5">
